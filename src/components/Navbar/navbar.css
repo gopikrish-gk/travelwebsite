@@ -100,4 +100,11 @@
   .navbarSection .header .activeNavbar {
     left: 0;
   }
+}
+.navbarSection .header .toggleNavbar .icon {
+  font-size: 25px;
+  color: var(--whiteColor);
+}
+.navbarSection .header .toggleNavbar .icon:hover {
+  color: var(--PrimaryColor);
 }/*# sourceMappingURL=navbar.css.map */
