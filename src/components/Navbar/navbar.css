@@ -31,6 +31,7 @@
 .navbarSection .header .logoDiv .logo .icon {
   color: var(--PrimaryColor);
   font-size: 25px;
+  margin-right: 10px;
 }
 @media screen and (max-width: 768px) {
   .navbarSection .header .navBar {
@@ -107,4 +108,8 @@
 }
 .navbarSection .header .toggleNavbar .icon:hover {
   color: var(--PrimaryColor);
+}
+.navbarSection .activeNavbar {
+  background: var(--greyText);
+  --boxShadow: box-shadow: 0 2px 8px 4px rgba(178,178,178,0.334);
 }/*# sourceMappingURL=navbar.css.map */
