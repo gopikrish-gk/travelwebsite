@@ -10,7 +10,7 @@ const Home = () =>{
                 <div className="homeText">
 
                     <h1 className="title">
-                        Plan Your Trip with Gk
+                        Plan Your Trip with Nature Trails Travel
                     </h1>
 
                     <p className="subTitle">
