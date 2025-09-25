@@ -1,8 +1,16 @@
-
+import { useState } from "react";
 import React from "react";
 import './home.css'
 
-const Home = () =>{
+const Home = () => {
+
+    const today = new Date().toISOString().split("T")[0];
+
+    const [date, setDate] = useState(today);
+
+    const handleChange = (e) => {
+        setDate(e.target.value);
+    };
     return (
         <section className="home">
 
@@ -34,17 +42,18 @@ const Home = () =>{
 
                     <div className="distDiv">
                         <label htmlFor="distance">
-                            Location
+                            Select Date
                         </label>
-                        <input type="text" placeholder="11/Meters" />
+                        <input type="date" placeholder="Select Date" id="date" value={date}
+                            onChange={handleChange} />
                     </div>
 
 
                     <div className="priceDiv">
                         <label htmlFor="price">
-                            Location
+                            Price
                         </label>
-                        <input type="text" placeholder="$2999-$9999" />
+                        <input type="text" placeholder="₹2999 - ₹14999" />
                     </div>
                     <button className="btn">
                         Search
@@ -53,6 +62,7 @@ const Home = () =>{
                 </div>
             </div>
         </section>
+
     )
 }
 
