@@ -37,7 +37,7 @@ li{
 .icon{
     font-size: 2rem;
     cursor: pointer;
-    color: green;
+    color: var(--PrimaryColor);
 }
 .flex{
     display: flex;
