@@ -1,10 +1,61 @@
-
+import { MdOutlineTravelExplore } from "react-icons/md";
+import { ImFacebook } from "react-icons/im";
+import { AiFillInstagram } from "react-icons/ai";
+import { BsTwitterX } from "react-icons/bs";
 import React from "react";
 import './footer.css'
 
 const Footer = () =>{
     return (
-        <div>footer</div>
+        <div className="footer">
+            <div className="secContainer container grid">
+                <div className="logoDiV">
+                    <div className="footerLogo">
+
+                        
+                        <a href="#" className="logo flex">
+                            <h3 className="flex"><MdOutlineTravelExplore className="icon" />Nature Trails Travel</h3>
+                           
+                        </a>
+                    </div>
+
+
+                </div>
+
+
+                <div className="socials flex">
+                    <ImFacebook className='icon'/>
+                    <BsTwitterX className='icon'/>
+                    <AiFillInstagram className='icon'/>
+                </div>
+
+                <div className="footerLinks">
+                    <span className="linkTitle">
+                        Information
+                    </span>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Explore</a>
+                    </li>
+                    <li>
+                        <a href="#">Travel</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </div>
+                <div className="footerLinks">
+                    <span className="linkTitle">
+                        Contact Us
+                    </span>
+                  <span className="phone">+916383003253</span>
+                  <span className="email">naturetravel@gmail.com</span>
+                </div>
+
+            </div>
+        </div>
     )
 }
 

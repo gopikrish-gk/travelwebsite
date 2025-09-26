@@ -33,7 +33,7 @@ window.addEventListener('scroll',addBg)
 
                 <div className="logoDiv">
                     <a href="" className="logo">
-                        <h1 className="flex"><MdTravelExplore className="icon"/>Nature Trails Travel</h1>
+                        <h2 className="flex"><MdTravelExplore className="icon"/>Nature Trails Travel</h2>
                     </a>
                 </div>
 

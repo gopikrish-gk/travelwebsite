@@ -17,9 +17,9 @@ const Home = () => {
             <div className="secContainer container">
                 <div className="homeText">
 
-                    <h1 className="title">
+                    <h3 className="title">
                         Plan Your Trip with Nature Trails Travel
-                    </h1>
+                    </h3>
 
                     <p className="subTitle">
                         Travel to your favourite place with peaceful of the environment!
