@@ -6,7 +6,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 import { MdAirportShuttle } from "react-icons/md";
 import { MdOutlineOtherHouses } from "react-icons/md";
 
-import React from "react";
+import React ,{ useEffect} from "react";
 import './offers.css'
 
 //let us import images====
@@ -14,6 +14,8 @@ import img1 from '../../assest/stay1.jpg'
 import img2 from '../../assest/stay2.webp'
 import img3 from '../../assest/stay3.jpg'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Offer = [
     {
@@ -53,12 +55,16 @@ const Offer = [
 
 
 const Offers = () => {
+
+    useEffect(()=>{
+            Aos.init({duration:2000})
+        },[])
     return (
         <section className="offer container section">
             <div className="secContainer">
 
                 
-                <div className="secIntro">
+                <div data-aos="fade-up" data-aos-duratuon='2000' className="secIntro">
                     <h2 className="secTitle">
                         special offers
                     </h2>
@@ -71,7 +77,7 @@ const Offers = () => {
 
                     {Offer.map(({id,off,wifi,imgScr,destTitle,location,beds,bath,price}) => {
                         return (
-                            <div className="singleOffer">
+                            <div   data-aos="fade-up" data-aos-duratuon='3000'   className="singleOffer">
                                 <div className="destImage">
                                     <img src={imgScr} alt={destTitle} />
 

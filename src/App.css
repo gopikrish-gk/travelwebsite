@@ -125,3 +125,18 @@ input{
         zoom: 1.7;
     }
 }
+/*  page design */
+::selection{
+    background-color: var(--PrimaryColor);
+    color: var(--whiteColor);
+
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background: var(--greyBg);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--PrimaryColor);
+    border-radius: 10px;
+    cursor: pointer;
+}

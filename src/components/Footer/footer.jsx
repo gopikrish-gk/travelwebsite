@@ -2,15 +2,21 @@ import { MdOutlineTravelExplore } from "react-icons/md";
 import { ImFacebook } from "react-icons/im";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsTwitterX } from "react-icons/bs";
-import React from "react";
+import React ,{ useEffect} from "react";
 import './footer.css'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Footer = () =>{
+    useEffect(()=>{
+                        Aos.init({duration:2000})
+                    },[])
     return (
         <div className="footer">
             <div className="secContainer container grid">
-                <div className="logoDiV">
-                    <div className="footerLogo">
+                <div data-aos="fade-up" data-aos-duratuon='2000'  className="logoDiV">
+                    <div className="footerLogo" data-aos="fade-up" data-aos-duratuon='2000' >
 
                         
                         <a href="#" className="logo flex">
@@ -23,14 +29,14 @@ const Footer = () =>{
                 </div>
 
 
-                <div className="socials flex">
+                <div className="socials flex" data-aos="fade-up" data-aos-duratuon='3000' >
                     <ImFacebook className='icon'/>
                     <BsTwitterX className='icon'/>
                     <AiFillInstagram className='icon'/>
                 </div>
                 </div>
 
-                <div className="footerLinks">
+                <div data-aos="fade-up" data-aos-duratuon='2000'  className="footerLinks">
                     <span className="linkTitle">
                         Information
                     </span>
@@ -47,7 +53,7 @@ const Footer = () =>{
                         <a href="#">Blog</a>
                     </li>
                 </div>
-                <div className="footerLinks">
+                <div className="footerLinks" data-aos="fade-up" data-aos-duratuon='2000' >
                     <span className="linkTitle">
                         Helpful Links
                     </span>
@@ -64,7 +70,7 @@ const Footer = () =>{
                         <a href="#">Privacy</a>
                     </li>
                 </div>
-                <div className="footerLinks">
+                <div data-aos="fade-up" data-aos-duratuon='2000'  className="footerLinks">
                     <span className="linkTitle">
                         Contact Us
                     </span>

@@ -1,5 +1,5 @@
 
-import React from "react";
+import React ,{ useEffect} from "react";
 import './about.css'
 
 import img1 from '../../assest/about-us01.png'
@@ -9,24 +9,30 @@ import img3 from '../../assest//mountain.png'
 //import video=======
 import video from '../../assest/forest-video.mp4'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const About = () => {
+
+     useEffect(()=>{
+                Aos.init({duration:2000})
+            },[])
     return (
         <section className="about section">
             <div className="secContainer">
-                <h2 className="title">
+                <h2  className="title">
                     Why Hikings?
                 </h2>
 
                 <div className="mainContent container grid">
-                    <div className="singleItem">
+                    <div data-aos="fade-up" data-aos-duratuon='2000' className="singleItem">
                         <img src={img1} alt="Image Name" />
                         <h3>🏔️✨About Us</h3>
                         <p>
                             Welcome to Nature Trails Travel, your trusted partner in exploring forests and mountains. We specialize in eco-friendly forest stays, mountain trips, hiking adventures, and guided tours that bring you closer to nature. Our passionate team designs safe, comfortable, and memorable journeys for solo travelers, families, and adventure seekers alike. Whether you prefer a peaceful forest stay, a thrilling hike, or a guided trip with local insights, we ensure every journey blends adventure, learning, and natural beauty. Let’s explore nature together! 
                         </p>
                     </div>
-                    <div className="singleItem">
+                    <div data-aos="fade-up" data-aos-duratuon='2500' className="singleItem">
                         <img src={img2} alt="Image Name" />
                         <h3>🥾 Adventure-Focused</h3>
                         <p>
@@ -36,7 +42,7 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className="singleItem">
+                    <div data-aos="fade-up" data-aos-duratuon='3000' className="singleItem">
                         <img src={img3} alt="Image Name" />
                         <h3>✨100+ Mountain Adventures</h3>
                         <p>
@@ -48,7 +54,7 @@ const About = () => {
                 <div className="videoCard container">
                     <div className="cardContent grid">
 
-                        <div className="cardText">
+                        <div data-aos="fade-right" data-aos-duratuon='2000' className="cardText">
                             <h2>
                                 Wonderful House Experience! – Nature Trails Travel
                             </h2>
@@ -57,7 +63,7 @@ const About = () => {
                             </p>
                         </div>
 
-                        <div className="cardVideo">
+                        <div data-aos="fade-left" data-aos-duratuon='2000' className="cardVideo">
                             <video src={video} autoPlay loop muted type='video/mp4'></video>
                         </div>
                     </div>

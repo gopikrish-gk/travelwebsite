@@ -1,7 +1,7 @@
 import { BsArrowLeftShort } from "react-icons/bs";
 import { BsArrowRightShort } from "react-icons/bs";
 import { MdReadMore } from "react-icons/md";
-import React from "react";
+import React ,{ useEffect} from "react";
 import './popular.css'
 
 //import the images ===============
@@ -9,6 +9,9 @@ import img1 from '../../assest/image3_yelagiri.jpg'
 import img2 from '../../assest/Kodaikanal.jpg'
 import img3 from '../../assest/kotagiri.jpeg'
 import img4 from '../../assest/ooty.webp'
+
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 const Data = [
@@ -47,11 +50,15 @@ const Data = [
 
 ]
 const Popular = () => {
+useEffect(()=>{
+        Aos.init({duration:2000})
+    },[])
+
     return (
         <section className="popular section container">
             <div className="secContainer">
                 <div className="secHeader flex">
-                    <div className="textDiv">
+                    <div data-aos="fade-right" data-aos-duratuon='2000' className="textDiv">
                         <h2 className="secTitle">
                             Peaceful Destination
                         </h2>
@@ -59,7 +66,7 @@ const Popular = () => {
                             From historical places to natural specteculars, come see the best of the world!
                         </p>
                     </div>
-                    <div className="iconsDiv flex">
+                    <div data-aos="fade-left" data-aos-duratuon='2000' className="iconsDiv flex">
                         <BsArrowLeftShort className="icon leftIcon" />
                         <BsArrowRightShort className='icon rightIcon' />
                     </div>
@@ -69,7 +76,7 @@ const Popular = () => {
                     {
                         Data.map(({id,imgSrc,destTitle,location,grade}) => {
                             return (
-                                <div className="singleDestination">
+                                <div data-aos="fade-up" className="singleDestination">
                                     <div className="destImage">
 
 
