@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/travelwebsite/static/css/main.4de30976.css",
+    "main.js": "/travelwebsite/static/js/main.facdfb7f.js",
+    "static/media/forest-video.mp4": "/travelwebsite/static/media/forest-video.116f7fab69afcf16da06.mp4",
+    "static/media/bgimage01.jpg": "/travelwebsite/static/media/bgimage01.fa68b438148e0ed79a8a.jpg",
+    "static/media/ooty.webp": "/travelwebsite/static/media/ooty.fe3bc8b62d090930e6aa.webp",
+    "static/media/stay2.webp": "/travelwebsite/static/media/stay2.28f728b894a50d6d9f4a.webp",
+    "static/media/blog2.jpg": "/travelwebsite/static/media/blog2.762d25e6661699651335.jpg",
+    "static/media/blog4.jpg": "/travelwebsite/static/media/blog4.2be4a059c499a1eb9d0a.jpg",
+    "static/media/image3_yelagiri.jpg": "/travelwebsite/static/media/image3_yelagiri.2704ab955370d26fd92f.jpg",
+    "static/media/mountain.png": "/travelwebsite/static/media/mountain.f6e4341c2e211839a2c8.png",
+    "static/media/blog01.webp": "/travelwebsite/static/media/blog01.01d55c4ec7b331c854dd.webp",
+    "static/media/stay1.jpg": "/travelwebsite/static/media/stay1.e36bbbd82ea0633e7674.jpg",
+    "static/media/about-us01.png": "/travelwebsite/static/media/about-us01.663deadca242b0c70629.png",
+    "static/media/stay3.jpg": "/travelwebsite/static/media/stay3.96ba97afe559f662ed8a.jpg",
+    "static/media/Kodaikanal.jpg": "/travelwebsite/static/media/Kodaikanal.e0864ff3871bfb3260ce.jpg",
+    "static/media/hiking.png": "/travelwebsite/static/media/hiking.cdbf0a6c24665fbd8e96.png",
+    "static/media/blog3.webp": "/travelwebsite/static/media/blog3.d4c7dd1aa75516f49bfc.webp",
+    "static/media/map.webp": "/travelwebsite/static/media/map.693e18c72d8ff25349f7.webp",
+    "static/media/kotagiri.jpeg": "/travelwebsite/static/media/kotagiri.90e435ccb18aa47ac440.jpeg",
+    "index.html": "/travelwebsite/index.html",
+    "main.4de30976.css.map": "/travelwebsite/static/css/main.4de30976.css.map",
+    "main.facdfb7f.js.map": "/travelwebsite/static/js/main.facdfb7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4de30976.css",
+    "static/js/main.facdfb7f.js"
+  ]
+}
