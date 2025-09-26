@@ -39,7 +39,7 @@ const posts = [
 const Blog = () => {
     return (
         <section className="blog container section">
-            <div className="secContaoner">
+            <div className="secContainer">
                 <div className="secIntro">
                     <h2 className="secTitle">
                         Our Best Blog?

@@ -17,7 +17,7 @@ const Footer = () =>{
                             <h3 className="flex"><MdOutlineTravelExplore className="icon" />Nature Trails Travel</h3>
                            
                         </a>
-                    </div>
+                    
 
 
                 </div>
@@ -27,6 +27,7 @@ const Footer = () =>{
                     <ImFacebook className='icon'/>
                     <BsTwitterX className='icon'/>
                     <AiFillInstagram className='icon'/>
+                </div>
                 </div>
 
                 <div className="footerLinks">
@@ -44,6 +45,23 @@ const Footer = () =>{
                     </li>
                     <li>
                         <a href="#">Blog</a>
+                    </li>
+                </div>
+                <div className="footerLinks">
+                    <span className="linkTitle">
+                        Helpful Links
+                    </span>
+                    <li>
+                        <a href="#">Destination</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Travel & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy</a>
                     </li>
                 </div>
                 <div className="footerLinks">

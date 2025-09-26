@@ -11,7 +11,7 @@
     --inputColor: hsl(330, 12%, 97%);
 }
 .home{
-    height: 70vh;
+    height: 80vh;
     background: linear-gradient(rgba(33,33,33,0.522),rgba(33,33,33,0.522)),url('../../assest/bgimage01.jpg');
     background-position: center;
     background-size: cover;
@@ -98,6 +98,85 @@
                 color: var(--whiteColor);
                 font-weight: 600;
             }
+        }
+    }
+}
+
+/*media queries====*/
+@media screen and (min-width:480px) {
+    .home{
+        .secContainer{
+            .homeCard{
+                bottom: -100px;
+                width: 90%;
+                grid-template-columns: repeat(2,1fr);
+                .btn{
+                    transform: translateY(15px);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:556px) {
+    .home{
+        .secContainer{
+           .homeText{
+            .title{
+                font-size: 2.5rem;
+              
+
+            }
+            .subTitle{
+                font-size: 18px;
+            }
+           }
+        }
+    }
+}
+@media screen and (min-width:720px) {
+    .home{
+        .secContainer{
+           
+            .homeCard{
+                bottom: -15%;
+                grid-template-columns: repeat(4,1fr);
+            }
+           
+        }
+    }
+}
+@media screen and (min-width:720px) {
+    .home{
+        .secContainer{
+           
+           .homeText{
+            padding: 1rem 10rem;
+
+            .title{
+                font-size: 3.5rem;
+                margin: auto;
+                line-height: 4rem;
+            }
+            .subTitle{
+                width: 70%;
+            }
+           }
+           
+        }
+    }
+}
+@media screen and (min-width:1024px) {
+    .home{
+        .secContainer{
+           .homeText{
+            .subTitle{
+                font-size: 20px;
+            }
+           }
+           .homeCard{
+            width: 70%;
+           }
         }
     }
 }

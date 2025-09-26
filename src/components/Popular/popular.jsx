@@ -1,6 +1,6 @@
 import { BsArrowLeftShort } from "react-icons/bs";
 import { BsArrowRightShort } from "react-icons/bs";
-import { BsDot } from "react-icons/bs";
+import { MdReadMore } from "react-icons/md";
 import React from "react";
 import './popular.css'
 
@@ -91,9 +91,9 @@ const Popular = () => {
                                             <h6>{location}</h6>
                                             <span className="flex">
                                                 <span className="dot">
-                                                    <BsDot className="icon" />
+                                                    <MdReadMore className="icon" />
                                                 </span>
-                                                GK
+                                                {/* GK */}
                                             </span>
                                         </div>
                                     </div>

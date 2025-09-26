@@ -23,13 +23,7 @@ const About = () => {
                         <img src={img1} alt="Image Name" />
                         <h3>🏔️✨About Us</h3>
                         <p>
-                            Welcome to Nature Trails Travel, your trusted partner in exploring the beauty of forests and mountains. We specialize in forest stays, mountain trips, hiking adventures, and guided tours that bring you closer to nature.
-
-                            Our team is passionate about creating unforgettable travel experiences. Whether you want a peaceful stay in the woods, a thrilling hike through scenic trails, or a guided forest trip with local insights, we are here to make your journey safe, comfortable, and memorable.
-
-                            With a focus on eco-friendly travel and personalized guide support, we ensure every trip is filled with adventure, learning, and natural beauty.
-
-                            Let’s explore the wild side of nature together! 
+                            Welcome to Nature Trails Travel, your trusted partner in exploring forests and mountains. We specialize in eco-friendly forest stays, mountain trips, hiking adventures, and guided tours that bring you closer to nature. Our passionate team designs safe, comfortable, and memorable journeys for solo travelers, families, and adventure seekers alike. Whether you prefer a peaceful forest stay, a thrilling hike, or a guided trip with local insights, we ensure every journey blends adventure, learning, and natural beauty. Let’s explore nature together! 
                         </p>
                     </div>
                     <div className="singleItem">
@@ -44,7 +38,7 @@ const About = () => {
 
                     <div className="singleItem">
                         <img src={img3} alt="Image Name" />
-                        <h3>✨100+ Mountain Adventures. One Unforgettable Journey</h3>
+                        <h3>✨100+ Mountain Adventures</h3>
                         <p>
                             At Nature Trails Travel, every mountain tells a story of adventure. With over 100+ mountain experiences across breathtaking trails, misty peaks, and hidden valleys, we bring thrill-seekers and nature lovers closer to the wild. From sunrise treks to forest stays, from challenging climbs to peaceful nature walks — we craft journeys that awaken your explorer’s spirit. Whether you’re chasing adrenaline or seeking calm in the clouds, our mountain adventures are designed to make every step unforgettable. Get ready to trek, camp, and explore the untamed beauty of nature with us
                         </p>

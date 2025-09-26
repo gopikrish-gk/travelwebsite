@@ -99,6 +99,7 @@
   bottom: 10px;
   padding: 0.5rem;
   background: var(--PrimaryColor);
+  color: var(--whiteColor);
   font-size: 2.5rem;
   border-radius: 50%;
   border: 1px solid transparent;
@@ -150,4 +151,46 @@
   overflow: visible;
   padding: 1rem 1.5rem;
   height: 100%;
+}
+
+/*media queries====*/
+@media screen and (min-width: 480px) {
+  .popular {
+    padding-top: 10rem;
+  }
+}
+@media screen and (min-width: 556px) {
+  .popular .secContainer .secHeader {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popular .secContainer .secHeader .textDiv {
+    text-align: start;
+    max-width: 70%;
+  }
+  .popular .secContainer .secHeader .iconsDiv {
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 720px) {
+  .popular {
+    padding-top: 7rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .popular {
+    padding-top: 10rem;
+  }
+  .popular .secContainer .secHeader .textDiv .secTitle {
+    font-size: 2.2rem;
+  }
+  .popular .secContainer .secHeader .textDiv p {
+    font-size: 15px;
+  }
+  .popular .secContainer .mainContent {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem !important;
+  }
 }/*# sourceMappingURL=popular.css.map */

@@ -48,9 +48,7 @@ window.addEventListener('scroll',addBg)
                             <a href="#" className="navLink">Products</a>
                         </li>
 
-                        <li className="navItem">
-                            <a href="#" className="navLink">Resources</a>
-                        </li>
+                     
 
                         <li className="navItem">
                             <a href="#" className="navLink">Contacts</a>
@@ -64,7 +62,7 @@ window.addEventListener('scroll',addBg)
                             <button className="btn loginBtn">
                                 <a href="#">Login</a>
                             </button>
-                            <button className="btn loginBtn">
+                            <button className="btn signUpBtn">
                                 <a href="#">Sign Up</a>
                             </button>
                         </div>
