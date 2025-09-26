@@ -18,7 +18,7 @@ const Home = () => {
                 <div className="homeText">
 
                     <h3 className="title">
-                        Plan Your Trip with Nature Trails Travel
+                        Plan11 Your Trip with Nature Trails Travel
                     </h3>
 
                     <p className="subTitle">
