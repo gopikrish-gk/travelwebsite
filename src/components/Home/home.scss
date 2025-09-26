@@ -103,7 +103,7 @@
 }
 
 /*media queries====*/
-@media screen and (min-width:480px) {
+@media screen and (min-width:350px) {
     .home{
         .secContainer{
             .homeCard{
@@ -117,6 +117,8 @@
         }
     }
 }
+
+
 
 @media screen and (min-width:556px) {
     .home{
@@ -139,7 +141,7 @@
         .secContainer{
            
             .homeCard{
-                bottom: -15%;
+                bottom: -8%;
                 grid-template-columns: repeat(4,1fr);
             }
            
