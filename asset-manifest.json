@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/travelwebsite/static/css/main.eaeed784.css",
-    "main.js": "/travelwebsite/static/js/main.facdfb7f.js",
+    "main.css": "/travelwebsite/static/css/main.852dbb60.css",
+    "main.js": "/travelwebsite/static/js/main.081a2d0d.js",
     "static/media/forest-video.mp4": "/travelwebsite/static/media/forest-video.116f7fab69afcf16da06.mp4",
     "static/media/bgimage01.jpg": "/travelwebsite/static/media/bgimage01.fa68b438148e0ed79a8a.jpg",
     "static/media/ooty.webp": "/travelwebsite/static/media/ooty.fe3bc8b62d090930e6aa.webp",
@@ -20,11 +20,11 @@
     "static/media/map.webp": "/travelwebsite/static/media/map.693e18c72d8ff25349f7.webp",
     "static/media/kotagiri.jpeg": "/travelwebsite/static/media/kotagiri.90e435ccb18aa47ac440.jpeg",
     "index.html": "/travelwebsite/index.html",
-    "main.eaeed784.css.map": "/travelwebsite/static/css/main.eaeed784.css.map",
-    "main.facdfb7f.js.map": "/travelwebsite/static/js/main.facdfb7f.js.map"
+    "main.852dbb60.css.map": "/travelwebsite/static/css/main.852dbb60.css.map",
+    "main.081a2d0d.js.map": "/travelwebsite/static/js/main.081a2d0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaeed784.css",
-    "static/js/main.facdfb7f.js"
+    "static/css/main.852dbb60.css",
+    "static/js/main.081a2d0d.js"
   ]
 }
