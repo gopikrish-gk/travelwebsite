@@ -12,6 +12,9 @@
   --boxShadow: box-shadow: 0 2px 8px 4px rgba(178,178,178,0.334);
 }
 
+.about {
+  overflow-x: hidden;
+}
 .about .secContainer .title {
   color: var(--blackColor);
   line-height: 1.5rem;

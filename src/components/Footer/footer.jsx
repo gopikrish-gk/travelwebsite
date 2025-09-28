@@ -70,7 +70,7 @@ const Footer = () =>{
                         <a href="#">Privacy</a>
                     </li>
                 </div>
-                <div data-aos="fade-up" data-aos-duratuon='2000'  className="footerLinks">
+                <div  className="footerLinks">
                     <span className="linkTitle">
                         Contact Us
                     </span>
